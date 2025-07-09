@@ -7,3 +7,4 @@ supabase
 pydantic
 python-multipart
 gunicorn
+pydantic[email]
