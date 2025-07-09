@@ -396,7 +396,6 @@ class SupabaseOperations:
             framework_data = {
                 "name": name,
                 "version": version,
-                "description": description,
                 "master": False,
                 "created_at": datetime.now().isoformat()
             }
