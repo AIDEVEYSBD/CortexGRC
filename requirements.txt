@@ -3,7 +3,7 @@ uvicorn
 httpx
 pandas
 openpyxl
-supabase-py
+supabase
 pydantic
 python-multipart
 gunicorn
