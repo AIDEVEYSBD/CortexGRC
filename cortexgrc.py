@@ -12,7 +12,7 @@ PRODUCTION READY: Framework mapping orchestrator with enhanced upload functional
 Environment Variables Required:
 - SUPABASE_URL: Your Supabase project URL
 - SUPABASE_ANON_KEY: Your Supabase anon key
-- FRAMEWORK_SERVICE_URL: URL for framework optimizer (default: https://0naoy7kk0qrrty-8000.proxy.runpod.net/)
+- FRAMEWORK_SERVICE_URL: URL for framework optimizer (default: https://0naoy7kk0qrrty-8000.proxy.runpod.net)
 - SOC_SERVICE_URL: URL for SOC analysis engine (default: http://localhost:8000)
 """
 
@@ -61,7 +61,7 @@ REQUEST_TIMEOUT = 300  # 5 minutes for other operations (SOC analysis)
 HEALTH_CHECK_TIMEOUT = 30  # Short timeout for health checks
 
 # Production microservice URLs
-FRAMEWORK_SERVICE_URL = os.getenv("FRAMEWORK_SERVICE_URL", "https://0naoy7kk0qrrty-8000.proxy.runpod.net/")
+FRAMEWORK_SERVICE_URL = os.getenv("FRAMEWORK_SERVICE_URL", "https://0naoy7kk0qrrty-8000.proxy.runpod.net")
 SOC_SERVICE_URL = os.getenv("SOC_SERVICE_URL", "http://localhost:8000")
 
 # ── Pydantic Models ──────────────────────────────────────────────────────
